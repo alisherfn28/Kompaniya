@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d3cfcf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #5361e4;
+  padding: 24px;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header_buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.menu li a {
+  font-size: 15 px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+select {
+  background-color: #5361e4;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#btn {
+  cursor: pointer;
+  padding: 13px 24px;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  color: #5361e4;
+}
+
+.block {
+  width: 778px;
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.kompaniya_container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.linklar img {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.links {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.block h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #2a2941;
+}
+
+.block p {
+  font-size: 16px;
+  font-weight: 450;
+  color: #b3b3b3;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 32px;
+}
+
+.img h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5361e4;
+  cursor: pointer;
+}
+
+.inputs {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block h5 {
+  font-size: 14px;
+  font-weight: 450;
+  color: #2a2941;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.inputs span {
+  color: red;
+}
+
+.block input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid rgb(189, 184, 184);
+}
+
+.block span {
+  color: red;
+}
+
+.linklar {
+  padding-top: 10px;
+}
+
+.davlat_inp span {
+  color: red;
+}
+
+.davlat_inp {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.davlat_inp input {
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid rgb(189, 184, 184);
+}
+
+#Izoh {
+  padding: 18px;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid rgb(189, 184, 184);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+
+#ort {
+  margin-top: 42px;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 1px;
+  color: #6e6d77;
+  cursor: pointer;
+}
+
+#key {
+  margin-top: 42px;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #5361e4;
+  cursor: pointer;
+}
+
+.card_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  font-size: 17px;
+  color: #7f7c9d;
+}
+
+.card h3 strong {
+  color: #3843a2;
+}
